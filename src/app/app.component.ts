@@ -14,5 +14,5 @@ import * as Highcharts from 'highcharts';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'jenkins_testing';
+ 
 }

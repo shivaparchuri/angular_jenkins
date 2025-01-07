@@ -13,17 +13,14 @@ export class Jenkins1Component implements OnInit {
   ngOnInit(): void {
 
     this.chartimplementation();
+  
+
   }
   chartimplementation() {
 
     Highcharts.chart("bar_chart", <any>{
       title: {
         text: ''
-      },
-      accessibility: {
-        point: {
-          valueDescriptionFormat: '{xDescription}{separator}{value} million(s)'
-        }
       },
       xAxis: {
         title: {
@@ -70,7 +67,8 @@ export class Jenkins1Component implements OnInit {
         enabled: false  
       }
     });
-  }
+  };
+
 
 }
 
